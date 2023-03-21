@@ -1,0 +1,218 @@
+/* ## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 3.2rem;
+}
+/* mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav[name="menu-outline"] {
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+}
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 48rem 1fr;
+  gap: 2.2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 3.2rem 3.2rem;
+}
+.logo {
+  width: 65;
+  height: 40;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2.8rem;
+  color: hsla(236, 13%, 42%, 0.612);
+}
+.nav-menu ul li a {
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  color: hsla(236, 13%, 42%, 0.612);
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: hsl(5, 85%, 63%);
+}
+.hero {
+  padding-top: 0;
+}
+.web {
+  max-width: 100%;
+  height: 100%;
+}
+.mobile {
+  display: none;
+}
+.colors {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 22rem 1fr;
+  gap: 1.4rem;
+}
+.sub-heading {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+h1 {
+  line-height: 1;
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+.CTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.CTA-p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: hsla(236, 13%, 42%, 0.612);
+}
+.read {
+  margin-top: 2.4rem;
+  width: 12rem;
+  height: 2.8rem;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+}
+.read:hover,
+.read:active {
+  background-color: hsl(240, 100%, 5%);
+}
+.cars {
+  background-color: hsl(240, 100%, 5%);
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 1.6rem;
+}
+
+.car1,
+.car2 {
+  margin-top: 1rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid hsla(236, 13%, 42%, 0.612);
+  font-weight: 800;
+  line-height: 1.8;
+}
+.car3 {
+  margin-top: 1rem;
+  padding: 1.6rem 0;
+  font-weight: 700;
+  line-height: 1.8;
+}
+.car-p {
+  margin-top: 0.5rem;
+  color: hsl(236, 13%, 42%);
+  font-size: 1rem;
+}
+.cars h3 {
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.cars h3:hover,
+.cars h3:active {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-top: 0;
+}
+.one {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1.2rem;
+}
+.one h2 {
+  font-size: 1.8rem;
+  color: hsla(236, 13%, 42%, 0.612);
+}
+.one h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.one h3:hover,
+.one h3:active {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+.one p {
+  font-size: 1rem;
+  color: hsla(236, 13%, 42%, 0.612);
+  line-height: 1.5;
+  font-weight: 700;
+}
+.one-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.one img {
+  width: 5.8rem;
+}
+.cars .new {
+  font-size: 2.4rem;
+  color: hsl(35, 77%, 62%);
+}
