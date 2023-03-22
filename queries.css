@@ -32,6 +32,9 @@
   }
 }
 @media (max-width: 40em) {
+  body {
+    padding: 0;
+  }
   .web {
     display: none;
   }
